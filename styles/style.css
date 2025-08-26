@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(-69.19deg, rgba(184.06446838378906, 230.6568145751953, 249.68748474121094, 1), rgba(230, 230, 250, 1) 100%);
+}
+
+.btn {
+    font-size: 20;
+    font-weight: 600;
+    color: #0D1321;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(90.00deg, rgba(255, 165, 0, 1), rgba(255, 212.0913543701172, 71.10576629638672, 1) 100%);
+    opacity: 0.8;
+    border: 2px;
+    margin: 3px;
+    padding: 17px 24px;
+}
+
+.section-title {
+    text-align: center;
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    text-align: center;
+    color: #0D132180;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    padding: 0 100px;
+}
+
+/* header styles section */
+.header {
+    background-color: #ffff;
+    border: 1px solid #C6DBFF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 90px;
+}
+
+.nav-title {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.text-primary {
+    color: #FFA500;
+}
+
+/* banner styles section */
+.banner-container {
+    width: 87.5%;
+    margin: 100px auto;
+}
+
+.banner {
+    background-color: #E6EDF9;
+    text-align: center;
+    padding: 40px 60px;
+    border-radius: 16px;
+}
+
+.banner-title {
+    margin-top: 32px;
+}
+
+.banner-title h1 {
+    color: #0D1321;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-title p {
+    color: #0D132170;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 144px;
+    margin-bottom: 32px;
+}
+
+/* reason-container styles section */
+.reason-container {
+    width: 87.5%;
+    margin: 100px auto;
+}
+
+.reason {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    background-color: #E6EDF9;
+    padding: 48px;
+}
+
+.reason-content h4 {
+    color: #0D132195;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.reason-content p {
+    color: #0D132170;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+
+/* inspiration style section */
+.inspiration-container {
+    width: 60%;
+    margin: 100px auto;
+}
+
+.inspiration-title .section-description {
+    font-family: "Azeret Mono", monospace;
+}
+
+.inspiration-video {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+
+.inpiration-video-content {
+    width: 778px;
+    height: 556px;
+    padding: 32px;
+}
+
+/* card style section */
+.service-container {
+    width: 87.5%;
+    margin: 100px auto;
+}
+
+.service-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.card {
+    width: 244px;
+    height: 137px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(180.00deg, rgba(230, 237, 249, 1), rgba(156.92308044433594, 228.84617614746094, 255, 1) 100%);
+}
+.card h2{
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 22px;
+}
+.card p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card p a{
+    color: #0D1321;
+}
+/* footer style section */
+.footer-container{
+    margin: 100px 0 42px;
+    background-color: #E6EDF9;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+.footer-title h4{
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+}
+.footer-logo{
+    display: flex;
+    gap: 10px;
+}
