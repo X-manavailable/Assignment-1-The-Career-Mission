@@ -21,6 +21,15 @@ body {
     padding: 17px 24px;
 }
 
+.btn:hover{
+    background: linear-gradient(90.00deg, rgb(247, 224, 94), rgb(235, 198, 64) 100%);
+    opacity: 1;
+    color: black;
+}
+.btn a{
+    text-decoration: none;
+    color: #0D1321;
+}
 .section-title {
     text-align: center;
     color: #0D1321;
@@ -167,38 +176,45 @@ nav {
     box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
     background: linear-gradient(180.00deg, rgba(230, 237, 249, 1), rgba(156.92308044433594, 228.84617614746094, 255, 1) 100%);
 }
-.card h2{
+
+.card h2 {
     color: #0D1321;
     font-size: 24px;
     font-weight: 800;
     margin-top: 22px;
 }
-.card p{
+
+.card p {
     font-size: 16px;
     font-weight: bold;
     margin-top: 10px;
 }
-.card p a{
+
+.card p a {
     color: #0D1321;
 }
+
 /* footer style section */
-.footer-container{
+.footer-container {
     margin: 100px 0 42px;
     background-color: #E6EDF9;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 150px;
 }
-.footer-title h4{
+
+.footer-title h4 {
     font-family: "Azeret Mono";
     font-size: 20px;
     font-weight: 600;
     color: #0D1321;
 }
-.footer-logo{
+
+.footer-logo {
     display: flex;
     gap: 10px;
 }
